@@ -17,7 +17,7 @@ print(list_multi_dimensional)
 list_of_size = [None] * 10
 print(list_of_size)
 
-#create a list of zeroes
+#create a list of zeroes/ones/any character
 list_zeroes = [0] * 10
 print(list_zeroes)
 
