@@ -1,0 +1,239 @@
+
+C and C++ Concepts
+
+Arrays
+
+added advantage
+sufficient
+frequently
+acquainted
+familiar
+
+approach
+
+style of programming
+
+adopted
+
+
+
+Arrays:
+	Collection of similar data elements
+	Group them under one entity as array
+	similar set of something
+	elements
+
+	int A[5];
+	
+	location
+	value
+	
+	declaration of array, initializtion of array
+	
+	
+
+
+structures
+	Collection of data members under one name
+	similar or dissimilar types
+	Grouping the data items
+	
+	primitive data types.
+	
+	Eg
+	Rectangle
+		Struct Rectangle
+			{
+			int length
+			int breadth
+			}
+		
+		
+		int main()
+		{
+		struct Rectangle r;
+		struct Rectangle r = {10, 5}
+
+
+
+
+Pointers
+	Pointer is Address variable that is meant for storing address of data
+	Normal variables are data variables, but pointer is address variable. In simple terms, int stores Integer value, pointer stores an address value.
+	Purpose is to indirectly address the data
+	
+	
+	int a = 10 - declaration
+	int *p
+	p = &a - assignment, initialization
+	print("%d", a)
+	print(*p) - deferencing
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Functions
+	Function is a piece of code which performs a specific task
+	
+	Structure is a group of related data members
+	Function is a group of related instructions which perform a specific task
+	Grouping instructions is a function
+	
+	Functions = modules/procedures
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Required Setup for Programming
+bloodshed.net
+C++ with Mingw/GCC 
+
+
+
+
+
+
+
+
+Program = set of instructions that perform operations on data to get results
+Without data, no use of instuctions
+
+Data structures
+Data bases
+Data Warehouse
+Big Data 
+
+
+Data Structure =  Arrangement of collection of data items so that operations can be done efficiently
+		inside the main memory during the execution of a program
+		
+		During the execution, how the program will manage the data 
+		
+		RAM = Working memory/primary memory
+		HDD = Permamanet Storage
+		
+		
+Types of data:
+	Operational data
+	Legacy/Historical data
+	
+	
+	
+Arrangement of data in memory is datastructures
+Arrangement of data on disk is database
+Arrangement of data in array of disks is data warehouse
+
+
+
+
+
+
+
+
+
+
+
+Arrays:
+	Mastering Data Structures & Algorithms using C and C++
+		single valued variable - scalar- having only magnitude
+			int x = 10
+		
+		Array: set or list of values
+			similar data elements grouped under one name	
+				vector - dimension. single dimension
+				arrays are vector variable
+			
+			all elements have the same name, differentiated by the index
+
+	
+		=scalar
+		=vector
+
+
+	Declaring an array:
+		int A[5]
+		int A[5] = {2,4,6,8,10} declaration and initialization
+		int A[5] = {2,4}
+		int A[5] = {0}
+		int A[] = {2,4,5,6,10,12}
+		
+		=traverse
+		
+	for(i=0; i<5; i++)
+	{
+		printf("%d", A[i])
+	}
+		
+	printf(A[2])
+	printf(2[A])
+	printf(*(A+2)
+		
+		
+	static and dynamic array = size is static or dynamic	
+
+	size of array was decided at compiletime
+	created inside stack
+	
+	whenever you say new, you get memory from heap
+	int *p = new int[5]
+	
+	
+	Increasing the size of an array:
+	int *q = new int [10]
+	for (i - 0; i <5 ;i ++ )
+		q[i] = p[i]
+		
+	delete []p
+	 p = q
+	 q = None
+	 
+	 
+	 
+	2d array:
+		int A[3][4] = {{1,2,3,4},{1,2,3,4},{1,2,3,4}}
+		
+		int *A[3] 
+		A[0] = new int[4]
+		A[1] = new int[4]
+		A[2] = new int[4]
+
+	int **A;
+	A = new int*[3]
+	
+	A[0] = new int[4]
+	A[1] = new int[4]
+	A[2] = new int[4]
+
+	for i to 3
+		for i to 4
+				
