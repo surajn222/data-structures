@@ -1,35 +1,33 @@
 #create a stack of nubers
-stack_numbers = [10, 20, 14]
-print(stack_numbers)
+# create an empty stack with list
+class Stack_list:
+	def __init__(self):
+		self.elements = []
 
-#value at index
-value_at_index_0 = stack_numbers[0]
-print(value_at_index_0)
+	def push(self, data):
+		self.elements.append(data)
 
-#value at last index
-value_at_index_last = stack_numbers[-1]
-print(value_at_index_last)
+	def pop(self):
+		if self.elements:
+			return self.elements.pop()
+		else:
+			return None
 
-#access all values
-for index in range(len(stack_numbers)):
-    print(stack_numbers[index])
+	def size(self):
+		return len(self.elements)
 
-#access all values
-for element in stack_numbers:
-    print(element)
+	def empty(self):
+		return True if self.size() == 0 else False
 
-#Definition
-stack_numbers = [10, 20, 14, 30, 40, 50, 60]
-print(stack_numbers)
+	def peek(self):
+		return self.elements[-1]
 
-#stack from index one to index three
-stack_from_index_one_to_index_four = stack_numbers[1:4] #Read as one to three
-print(stack_from_index_one_to_index_four)
 
-#stack from index one to index three
-stack_from_index_zero_to_index_four = stack_numbers[:4] #Read as zero to three
-print(stack_from_index_zero_to_index_four)
-
-#stack from index one to index three
-stack_from_index_zero_to_index_last = stack_numbers[-3:-1] #Read as zero to three
-print(stack_from_index_zero_to_index_last)
+stack = Stack_list()
+print(stack.empty())
+stack.push(1)
+stack.push(2)
+stack.push(3)
+print(stack.peek())
+stack.pop()
+print(stack.peek())

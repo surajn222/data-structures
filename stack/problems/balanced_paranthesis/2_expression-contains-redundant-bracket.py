@@ -2,46 +2,43 @@
 def check_redundant_brackets(str_parenthesis):
     print(f"\n\n\n")
     print(str_parenthesis)
-    stack = []
+    stack_temp = []
     count_of_balanced_parenthesis = 0
     list_tuple =[]
 
     for character_in_strparenthesis in str_parenthesis:
 
-
         if character_in_strparenthesis in [")"]:
-            if len(stack) == 0:
-                print("Not okay, stack empty")
+            if len(stack_temp) == 0:
+                print("Not okay, stack_temp empty")
                 continue
 
-            character_in_stack = stack[-1]
-            stack.pop()
-
+            character_in_stack_temp = stack_temp[-1]
+            stack_temp.pop()
 
             print("char in P: " + character_in_strparenthesis)
-            print("char in stack: " + character_in_stack)
+            print("char in stack_temp: " + character_in_stack_temp)
+
             flag_redundant_brackets = True
             if character_in_strparenthesis == ")":
-                while(character_in_stack not in  ["("]):
-                    character_in_stack = stack[-1]
-                    stack.pop()
+                while(character_in_stack_temp not in  ["("]):
+                    character_in_stack_temp = stack_temp[-1]
+                    stack_temp.pop()
 
-                    if character_in_stack == "+":
+                    if character_in_stack_temp == "+":
                         flag_redundant_brackets = False
             if flag_redundant_brackets == True:
                 print(flag_redundant_brackets)
                 return
 
         else:
-            stack.append(character_in_strparenthesis)
+            stack_temp.append(character_in_strparenthesis)
 
-    if stack:
-        print("Not Okay, stack is not empty")
+    if stack_temp:
+        print("Not Okay, stack_temp is not empty")
 
 
     print(flag_redundant_brackets)
-
-
 
 
 

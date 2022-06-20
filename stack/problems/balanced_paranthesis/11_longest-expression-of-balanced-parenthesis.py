@@ -8,7 +8,6 @@ def check_balanced_parenthesis(str_parenthesis):
     count_of_balanced_parenthesis = 0
     for character_in_strparenthesis in str_parenthesis:
 
-
         if character_in_strparenthesis in ["(", "[", "{"]:
             stack.append(character_in_strparenthesis)
         elif character_in_strparenthesis in [")", "]", "}"]:

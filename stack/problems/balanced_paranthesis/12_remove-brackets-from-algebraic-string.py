@@ -2,7 +2,6 @@
 
 # Function to simplify the String
 
-
 def simplify(Str):
     Len = len(Str)
 
@@ -41,13 +40,12 @@ def simplify(Str):
         elif (s[-1] == 0):
             res[index] = '-'
             index += 1
+
     elif (Str[i] == '(' and i > 0):
         if (Str[i - 1] == '-'):
-
             # x is opposite to the top of stack
             x = 0 if (s[-1] == 1) else 1
             s.append(x)
-
         # append value equal to top of the stack
         elif (Str[i - 1] == '+'):
             s.append(s[-1])

@@ -1,20 +1,33 @@
-#create a list of nubers
-list_numbers = [10, 20, 14]
-print(list_numbers)
+#create a stack of nubers
+# create an empty stack with list
+class Stack_list:
+	def __init__(self):
+		self.elements = []
 
-list_numbers.insert(0, 12)
-print(list_numbers)
+	def push(self, data):
+		self.elements.append(data)
 
-list_numbers.insert(2, 13)
-print(list_numbers)
+	def pop(self):
+		if self.elements:
+			return self.elements.pop()
+		else:
+			return None
 
-list_numbers = list()
+	def size(self):
+		return len(self.elements)
 
-for index in range(5):
-    element = int(input())
-    list_numbers.append(element)
+	def empty(self):
+		return True if self.size() == 0 else False
 
-print(list_numbers)
+	def peek(self):
+		return self.elements[-1]
 
 
-
+stack = Stack_list()
+print(stack.empty())
+stack.push(1)
+stack.push(2)
+stack.push(3)
+print(stack.peek())
+stack.pop()
+print(stack.peek())
