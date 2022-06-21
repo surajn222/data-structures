@@ -13,8 +13,8 @@ def check_redundant_brackets(str_parenthesis):
                 print("Not okay, stack_temp empty")
                 continue
 
-            character_in_stack_temp = stack_temp[-1]
-            stack_temp.pop()
+            character_in_stack_temp = stack_temp.pop()
+            #stack_temp.pop()
 
             print("char in P: " + character_in_strparenthesis)
             print("char in stack_temp: " + character_in_stack_temp)
@@ -22,8 +22,8 @@ def check_redundant_brackets(str_parenthesis):
             flag_redundant_brackets = True
             if character_in_strparenthesis == ")":
                 while(character_in_stack_temp not in  ["("]):
-                    character_in_stack_temp = stack_temp[-1]
-                    stack_temp.pop()
+                    character_in_stack_temp = stack_temp.pop()
+                    #stack_temp.pop()
 
                     if character_in_stack_temp == "+":
                         flag_redundant_brackets = False

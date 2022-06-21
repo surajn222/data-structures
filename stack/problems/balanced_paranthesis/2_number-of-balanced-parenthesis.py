@@ -16,8 +16,8 @@ def check_balanced_parenthesis(str_parenthesis):
                 print("Not okay, stack empty")
                 continue
 
-            character_in_stack = stack[-1]
-            stack.pop()
+            character_in_stack = stack.pop()
+            #stack.pop()
             print("char in P: " + character_in_strparenthesis)
             print("char in stack: " + character_in_stack)
 
