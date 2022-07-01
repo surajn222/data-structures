@@ -1,6 +1,5 @@
 # Pending
-# Python3 program to Find the two
-# repeating elements in a given array
+# Python3 program to Find the two repeating elements in a given array
 
 def printRepeating(arr, size):
     print("Repeating elements are ",

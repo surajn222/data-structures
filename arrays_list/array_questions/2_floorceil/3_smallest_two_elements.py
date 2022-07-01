@@ -1,7 +1,6 @@
 # Python program to find smallest and second smallest elements
 import math
 
-
 def printTwoSmallestElements(arr):
     # There should be atleast two elements
     arr_size = len(arr)
