@@ -1,5 +1,3 @@
-import sys
-from math import ceil
 def search_arr(list_arr, search_element, min_index, max_index):
     # Binary Search
     # 1. Input: Array
@@ -12,7 +10,6 @@ def search_arr(list_arr, search_element, min_index, max_index):
     # 5. Repeat
 
     print("min_index = " + str(min_index) + " max_index = " + str(max_index) + "\n")
-
 
     mid_index = int((max_index + min_index)/2)
 
@@ -54,8 +51,6 @@ def insert_arr(list_arr, insert_element):
     list_arr[i] = insert_element
     print("Array after")
     print(list_arr)
-
-    sys.exit()
 
     # Insert the element
 

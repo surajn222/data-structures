@@ -1,6 +1,5 @@
 # Python 3 implementation of simple method
 # to find count of pairs with given sum.
-import sys
 
 # Returns number of pairs in arr[0..n-1]
 # with sum equal to 'sum'

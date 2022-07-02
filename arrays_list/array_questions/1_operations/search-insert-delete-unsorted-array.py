@@ -1,7 +1,4 @@
-# Python program for searching in
-# unsorted array
-
-
+# Python program for searching in unsorted array
 
 #Search element:
 
