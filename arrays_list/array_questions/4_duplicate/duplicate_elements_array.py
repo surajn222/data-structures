@@ -9,7 +9,6 @@ def printRepeating(arr, size):
             if arr[i] == arr[j]:
                 print(arr[i], end=' ')
 
-
 # Driver code
 arr = [4, 2, 4, 5, 2, 3, 1]
 arr_size = len(arr)

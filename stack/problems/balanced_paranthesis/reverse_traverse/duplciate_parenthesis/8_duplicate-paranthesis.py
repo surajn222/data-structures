@@ -22,11 +22,13 @@ def findDuplicateparenthesis(string):
             # if this count is less than or equal to 1
             # then the brackets are redundant else not
             elementsInside = 0
+            print(ch)
             while top != '(':
                 elementsInside += 1
                 top = Stack.pop()
 
             if elementsInside < 1:
+				print("here:" + str(ch))
                 return True
 
         # push open parenthesis '(', operators
@@ -41,12 +43,13 @@ def findDuplicateparenthesis(string):
 # Driver Code
 if __name__ == "__main__":
 
-    # input balanced expression
-    string = "(((a+(b))+(c+d)))"
+	# input balanced expression
+	string = "(((a+b)+(c+d)))"
+	string = "(((a+b)+(c+d)))"
 
-    if findDuplicateparenthesis(string) == True:
-        print("Duplicate Found")
-    else:
-        print("No Duplicates Found")
+	if findDuplicateparenthesis(string) == True:
+		print("Duplicate Found")
+	else:
+		print("No Duplicates Found")
 
 # This code is contributed by Rituraj Jain

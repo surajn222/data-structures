@@ -1,7 +1,6 @@
 # python program to print all distinct elements in a given array
 
 #Method 1
-
 def printDistinct(arr, n):
     # Pick all elements one by one
     for index_array in range(0, n):
@@ -16,7 +15,6 @@ def printDistinct(arr, n):
         # If not printed earlier, then print it
         if (element_already_exists == 0):
             print(arr[index_array])
-
 
 # Driver program to test above function
 arr = [6, 6,6, 10, 5, 4, 9, 120, 4, 6, 10]

@@ -4,7 +4,6 @@ def check_balanced_parenthesis(str_parenthesis):
     print(str_parenthesis)
 
     stack = []
-    count_of_balanced_parenthesis = 0
     list_tuple =[]
     index = 0
 

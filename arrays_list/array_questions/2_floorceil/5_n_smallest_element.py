@@ -4,7 +4,7 @@
 def kLargest(arr, k):
 	# Sort the given array arr in reverse
 	# order.
-	arr.sort(reverse=True)
+	arr.sort()
 	# Print the first kth largest elements
 	for i in range(k):
 		print(arr[i], end=" ")

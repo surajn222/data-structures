@@ -1,14 +1,7 @@
-# Python3 program to find the pair
-# with sum
-# closest to a given no.
+# Python3 program to find the pair with sum closest to a given no.
 
-# A sufficiently large value greater
-# than any
-# element in the input array
+# A sufficiently large value greater than any element in the input array
 MAX_VAL = 1000000000
-
-
-
 
 def printClosestPair(arr, len_arr, desired_sum):
     arr.sort()

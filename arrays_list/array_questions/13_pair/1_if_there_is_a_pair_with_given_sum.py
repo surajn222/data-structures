@@ -1,9 +1,7 @@
-# Python 3 implementation of simple method
-# to find count of pairs with given sum.
+# Python 3 implementation of simple method to find count of pairs with given sum.
 
 # Returns number of pairs in arr[0..n-1]
 # with sum equal to 'sum'
-
 
 # Find one pair/all pairs that sum/diff to a number
 # Method 1:
@@ -14,10 +12,10 @@
 # O(n^2)
 
 # Method 2:
-# Sum - first element of array(this is one part of the pair) = second part of the pair -> count occurences of this number = add to a variable. this will happen twice
-# Sum - second element of array(this is one part of the pair) = second part of the pair -> count occurences of this number = add to a variable. this will happen twice
-# Sum - third element of array(this is one part of the pair) = second part of the pair -> count occurences of this number = add to a variable. this will happen twice
-# Sum - fourth element of array(this is one part of the pair) = second part of the pair -> count occurences of this number = add to a variable. this will happen twice
+# Sum - first element of array(this is one part of the pair) = second part of the pair(count occurences of this number = add to a variable. this will happen twice)
+# Sum - second element of array(this is one part of the pair) = second part of the pair(count occurences of this number = add to a variable. this will happen twice)
+# Sum - third element of array(this is one part of the pair) = second part of the pair(count occurences of this number = add to a variable. this will happen twice)
+# Sum - fourth element of array(this is one part of the pair) = second part of the pair(count occurences of this number = add to a variable. this will happen twice)
 # O(n)
 
 # Sum = first_element + second_element

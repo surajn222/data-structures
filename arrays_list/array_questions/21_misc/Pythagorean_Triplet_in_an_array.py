@@ -1,0 +1,1 @@
+# Pythagorean_Triplet_in_an_array

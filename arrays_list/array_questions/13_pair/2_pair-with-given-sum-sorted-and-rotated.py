@@ -1,11 +1,5 @@
-# Python3 program to find a
-# pair with a given sum in
-# a sorted and rotated array
-import sys
-
-# This function returns True
-# if arr[0..n-1] has a pair
-# with sum equals to x.
+# Python3 program to find a pair with a given sum in a sorted and rotated array
+# This function returns True if arr[0..n-1] has a pair with sum equals to x.
 def pairInSortedRotated(arr, n, x):
     # Find the pivot element
     for i in range(0, n - 1):
@@ -17,6 +11,7 @@ def pairInSortedRotated(arr, n, x):
 
     # l is now index of smallest element
     l = (i + 1) % n
+
     # r is now index of largest element
     r = i
 
@@ -40,7 +35,6 @@ def pairInSortedRotated(arr, n, x):
         else:
             # Move to the lower sum side
             r = (n + r - 1) % n;
-        sys.exit()
 
     return False;
 
