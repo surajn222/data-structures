@@ -1,1 +1,0 @@
-#Find_a_triplet_that_sum_to_a_given_value
