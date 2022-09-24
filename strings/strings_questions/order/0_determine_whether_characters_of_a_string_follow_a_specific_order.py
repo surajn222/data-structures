@@ -1,28 +1,32 @@
+# Function to remove characters from a word that are not present in
+# the specified pattern
+def removeChars(word, allowed):
+	allow = set(allowed)
+	return list(filter(lambda x: x in allow, word))
+
+
+# Function to remove adjacent duplicates characters from a word
+def removeDuplicates(chars):
+	prev = None
+	k = 0
+
+	for i in range(len(chars)):
+		if prev != chars[i]:
+			chars[k] = chars[i]
+			k = k + 1
+			prev = chars[i]
+
+	return ''.join(chars[:k])
+
+
 # Determine if characters of a given word follow specific order as
 # defined by characters of the given pattern
 def checkPattern(word, pattern):
 	# invalid input
-	if not word or not pattern or len(word) < len(pattern):
+	if not word or not pattern:
 		return False
 
-	# stores previous character
-	prev = None
-
-	# loop through all chars of the pattern
-	for curr in pattern:
-
-		# return false if the last occurrence of the previous character is after
-		# the first occurrence of the current character in the input word
-
-		firstIndex = word.find(curr)
-		if firstIndex == -1 or (prev and word.rfind(prev) > firstIndex):
-			return False
-
-		# set current as previous for the next iteration
-		prev = curr
-
-	# we reach here if the given word matches the pattern
-	return True
+	return removeDuplicates(removeChars(word, pattern)) == pattern
 
 
 if __name__ == '__main__':
@@ -34,3 +38,7 @@ if __name__ == '__main__':
 		print('Pattern found')
 	else:
 		print('Pattern not found')
+
+# TAKEAWAY
+# 1. Remove characters - Given pattern, word, only chars from pattern should remain in word
+# 2. Remove duplicates - Given a str, remove adjacent duplicates

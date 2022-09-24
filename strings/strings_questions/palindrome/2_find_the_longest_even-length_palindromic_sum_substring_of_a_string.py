@@ -5,6 +5,7 @@ def longestPalindrome(s):
 	total = [0] * (len(s) + 1)
 
 	for i in range(1, len(s) + 1):
+		print("Total: " + str(total))
 		total[i] = total[i - 1] + int(s[i - 1])
 
 	# stores the maximum length of a substring with an equal sum
@@ -19,6 +20,7 @@ def longestPalindrome(s):
 
 			# find the middle index of the substring
 			mid = i + length // 2
+			print("i: " + str(i) + " j: " + str(j) + " length: " + str(length) + " mid: " + str(mid))
 
 			# if the sum of the left and right half is the same as the length of
 			# the substring is more than the maximum length found so far

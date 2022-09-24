@@ -69,3 +69,15 @@ if __name__ == '__main__':
 	print(checkEditDistance("xyz", "xyyz"))  # True
 	print(checkEditDistance("xyz", "xyx"))  # True
 	print(checkEditDistance("xyz", "xxx"))  # False
+
+# PSEUDOCODE
+# Comparing xyz to xz
+# Compare x to x
+# Compare y to x. if not same, increment the index of xyz. edits++
+# Compare z to z
+
+# Comparing xyz to xyyz
+# Compare x to x
+# Compare y to y.
+# Compare z to y. if not same, increment the index of xyyz. edits++
+# Compare z to z

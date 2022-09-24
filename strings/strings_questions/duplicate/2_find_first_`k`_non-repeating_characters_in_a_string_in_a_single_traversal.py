@@ -1,46 +1,50 @@
-from heapq import heappop, heappush
+# Function to find the first non-repeating character in
+# the string by doing only a single traversal of it
 
+# Logic
+# s = 'ABCDBAGHC'
+# Step1:
+# dictionary with count and index: {'A': (2, 5), 'B': (2, 4), 'C': (2, 8), 'D': (1, 3), 'G': (1, 6), 'H': (1, 7)}
+# Step2:
+# Then loop through the dict, and find the char with count 1, and least index
 
-class Pair:
-	def __init__(self, count=0, index=0):
-		self.count = count
-		self.index = index
+# If we need the first k non-repeating characters in a string, then we can insert index for all (tuples with count 1) into an array,
+# sort that array and get the first elements (that is the index)
 
-	# Override the `__lt__()` function to make `Pair` class work with min-heap
-	def __lt__(self, other):
-		return self.count < other.count
+def findNonRepeatingChar(s):
+	# base case
+	if not s:
+		return -1
 
-
-# Function to find first `k` non-repeating character in
-# the string by doing only a single traversal
-def first_k_non_repeating(s, k):
 	# dictionary to store character count and the index of its
 	# last occurrence in the string
 	d = {}
 
-	for i in range(len(s)):
-		pair = d.setdefault(s[i], Pair())
-		pair.count = pair.count + 1
-		pair.index = i
+	for index, char in enumerate(s):
+		frequency, prevIndex = d.get(char, (0, index))
+		d[char] = (frequency + 1, index)
 
-	# create an empty min-heap
-	pq = []
+	print(d)
 
-	# traverse the dictionary and push the index of all characters
-	# having the count of 1 into the min-heap
-	for pair in d.values():
-		if pair.count == 1:
-			heappush(pq, pair.index)
+	# stores index of the first non-repeating character
+	min_index = -1
 
-	# pop the top `k` keys from the min-heap
-	while k > 0 and pq:
-		# extract the minimum node from the min-heap
-		print(s[heappop(pq)], end=' ')
-		k = k - 1
+	# Traverse the dictionary and find a character with count 1 and
+	# a minimum index of the string
+	for key, values in d.items():
+		count, firstIndex = values
+		if count == 1 and (min_index == -1 or firstIndex < min_index):
+			min_index = firstIndex
+
+	return min_index
 
 
 if __name__ == '__main__':
-	s = 'ABCDBAGHCHFAC'
-	k = 3
 
-	first_k_non_repeating(s, k)
+	s = 'ABCDBAGHC'
+
+	index = findNonRepeatingChar(s)
+	if index != -1:
+		print('The first non-repeating character in the string is', s[index])
+	else:
+		print('The string has no non-repeating character')
