@@ -14,8 +14,12 @@ def groupAnagrams(words):
 	# and value is a list of indices where it is present
 	d = {}
 	for i, e in enumerate(nums):
-		d.setdefault(e, []).append(i)
+		list1 = d.get(e, [])
+		list1.append(i)
+		d[e] = list1
+	# d.setdefault(e, []).append(i)
 
+	print(d)
 	# traverse the dictionary and read indices for each sorted key.
 	# The anagrams are present in the actual list at those indices
 	for index in d.values():

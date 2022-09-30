@@ -3,13 +3,14 @@
 def reverse(s, k):
 	# base case: end of the string is reached
 	if k == len(s):
+		print("returning now")
 		return
 
 	# recur for the next character
 	reverse(s, k + 1)
 
 	# print current character
-	print(s[k], end='')
+	print(s[k])
 
 
 if __name__ == '__main__':
