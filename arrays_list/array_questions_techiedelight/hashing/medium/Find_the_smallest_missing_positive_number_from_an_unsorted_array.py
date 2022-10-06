@@ -2,7 +2,7 @@
 def findSmallestMissing(nums):
 	# initialize the set from array elements
 	distinct = {*nums}
-
+	print(distinct)
 	# return first smallest missing positive number from the set
 	index = 1
 	while True:

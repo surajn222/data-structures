@@ -1,3 +1,6 @@
+# Xor works in binary in such a way
+# If 5 ^ 5  -> 5 + 5
+# If 5 ^ 5 ^ 5  -> 5 + 5 - 5
 # Function to find an odd occurring element in a given list
 def findOddOccuring(arr):
 	xor = 0

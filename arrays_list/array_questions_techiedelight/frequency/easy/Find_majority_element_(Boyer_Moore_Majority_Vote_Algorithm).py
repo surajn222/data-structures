@@ -1,3 +1,4 @@
+# Majority element is the element that occurs > n/2 times
 # Function to find the majority element present in a given list
 def findMajorityElement(nums):
 	# create an empty `HashMap`

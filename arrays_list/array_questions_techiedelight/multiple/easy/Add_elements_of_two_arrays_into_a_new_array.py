@@ -1,9 +1,12 @@
 # Recursive function to separate the digits of a positive integer
 # and add them to a given list
 def split_number(num, result):
+	print("Num: " + str(num))
 	if num > 0:
 		split_number(num // 10, result)
 		result.append(num % 10)
+
+	print(result)
 
 
 # Function to add two lists

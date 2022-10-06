@@ -1,3 +1,9 @@
+# Two conditions
+# 1. # if the previous element is greater than the current element,
+# 	swap the elements
+# 2. if the next element is greater than the current element,
+# 	swap the elements
+
 # Utility function to swap elements `A[i]` and `A[j]` in the list
 def swap(A, i, j):
 	temp = A[i]

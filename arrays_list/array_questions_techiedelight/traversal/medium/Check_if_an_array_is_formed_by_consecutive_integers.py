@@ -1,9 +1,11 @@
 # Function to check if consecutive integers form a list
 def isConsecutive(A):
 	# base case
+	# Case 1
 	if len(A) <= 1:
 		return True
 
+	# Case 2
 	# compute the minimum and maximum element in a list
 	minimum = min(A)
 	maximum = max(A)
@@ -13,6 +15,7 @@ def isConsecutive(A):
 	if maximum - minimum != len(A) - 1:
 		return False
 
+	# Case 3
 	# create an empty set (we can also use a visited list)
 	visited = set()
 

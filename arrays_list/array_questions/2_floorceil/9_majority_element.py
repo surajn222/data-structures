@@ -80,14 +80,11 @@ else:
 
 # This code is contributed by shreyanshi_arun.
 # ------------------------------------------------
-def isMajorityElement(arr,
-					  n, key):
+def isMajorityElement(arr, n, key):
+	if (arr[n // 2] == key):
+		return True
 
-
-if (arr[n // 2] == key):
-	return True
-
-return False
+	return False
 
 # Driver code
 if __name__ == "__main__":
