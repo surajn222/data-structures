@@ -1,6 +1,4 @@
 print("Insertion sort")
-import os
-import sys
 
 #Step 1
 #In order to understand bubble sort, understand the inner loop first
@@ -20,6 +18,7 @@ while inner_loop_index > 0 and current_element_to_be_rearranged_value < array_ar
     inner_loop_index=inner_loop_index - 1
 
 print("Start")
+
 #This is the entire program
 array_arr = [10,8,6,4,2]
 

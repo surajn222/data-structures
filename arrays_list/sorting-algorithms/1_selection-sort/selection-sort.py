@@ -1,6 +1,5 @@
 print("Selection sort")
-import os
-import sys
+# Similar to bubble sort, except this algo uses index instead of elements to compare.
 
 #Step 1
 #In order to understand bubble sort, understand the inner loop first
