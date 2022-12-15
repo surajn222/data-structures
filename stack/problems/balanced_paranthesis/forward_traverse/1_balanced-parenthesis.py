@@ -5,6 +5,7 @@
 # Pseudologic
 # 1. Traverse the string
 # string = "{()}[]"
+#       case:
 #       a.
 #           if current_char_in_string is open_bracket:
 #               add current_char_in_string to stack_temp
