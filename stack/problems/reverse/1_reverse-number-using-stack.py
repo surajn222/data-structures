@@ -12,8 +12,7 @@ def push_digits(number):
 
 # Function to reverse the number
 def reverse_number(number):
-    # Function call to push number's
-    # digits to stack
+    # Function call to push number's digits to stack
     push_digits(number);
 
     reverse = 0;
