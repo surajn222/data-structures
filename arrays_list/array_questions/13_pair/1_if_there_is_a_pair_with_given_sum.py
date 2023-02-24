@@ -34,7 +34,7 @@
 # Both first and second steps take O(nLogn). So overall complexity is O(nLogn).
 # The second step of the above algorithm can be improved to O(n). The first step remain same. The idea for second step is take two index variables i and j, initialize them as 0 and 1 respectively. Now run a linear loop. If arr[j] – arr[i] is smaller than n, we need to look for greater arr[j], so increment j. If arr[j] – arr[i] is greater than n, we need to look for greater arr[i], so increment i. Thanks to Aashish Barnwal for suggesting this approach. #PENDING
 
-
+# https://leetcode.com/problems/finding-pairs-with-a-certain-sum/submissions/ #Pending
 
 
 def getPairsCount_dict(arr, n, sum):

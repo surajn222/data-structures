@@ -2,30 +2,39 @@
 # Returns true if the there is a subarray of arr[] with sum
 # equal to 'sum'
 # otherwise returns false. Also, prints the result
-def subArraySum(arr, n, sum_):
-	# Pick a starting point
-	for i in range(n):
-		curr_sum = arr[i]
 
-		# try all subarrays
-		# starting with 'i'
-		j = i + 1
-		while j <= n:
+# https://leetcode.com/problems/subarray-sum-equals-k/ # Pending
+def subArraySum(arr, n, Sum):
+	# create an empty map
+	Map = {}
 
-			if curr_sum == sum_:
-				print("Sum found between")
-				print("indexes % d and % d" % (i, j - 1))
+	# Maintains sum of elements so far
+	curr_sum = 0
 
-				return 1
+	for i in range(0, n):
 
-			if curr_sum > sum_ or j == n:
-				break
+		# add current element to curr_sum
+		curr_sum = curr_sum + arr[i]
 
-			curr_sum = curr_sum + arr[j]
-			j += 1
+		# if curr_sum is equal to target sum
+		# we found a subarray starting from index 0
+		# and ending at index i
+		if curr_sum == Sum:
+			print("Sum found between indexes 0 to", i)
+			return
 
-	print("No subarray found")
-	return 0
+		# If curr_sum - sum already exists in map
+		# we have found a subarray with target sum
+		if (curr_sum - Sum) in Map:
+			print("Sum found between indexes",
+				  Map[curr_sum - Sum] + 1, "to", i)
+
+			return
+
+		Map[curr_sum] = i
+
+	# If we reach here, then no subarray exists
+	print("No subarray with given sum exists")
 
 
 # Driver program

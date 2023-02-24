@@ -20,23 +20,44 @@ for i in range(0, 10, 2):
 
 # Recursion
 
+print("Example 1.1")
 # Example 1
 i = 0
 
 
-def fun_print(i):  # Init
+def fun_print_1(i):  # Init
 	print(i)  # Operation
 	i = i + 1  # Increment
 	if i == 10:  # End/Break
 		return
-	fun_print(i)  # Call the function again
+	fun_print_1(i)  # Call the function again
 
 
-fun_print(i)
+fun_print_1(i)
+
+print("Example 1.2")
+# Example 1
+i = 0
+
+
+def fun_print_2(i):  # Init
+	print(i)  # Operation
+	i = i + 1  # Increment
+	if i < 10:  # End/Break
+		fun_print_2(i)  # Call the function again
+	else:
+		return
+
+
+fun_print_2(i)
+
+import sys
+
+sys.exit()
 
 print("Example 2")
 
-# Example 1
+# Example 2
 i = 0
 
 

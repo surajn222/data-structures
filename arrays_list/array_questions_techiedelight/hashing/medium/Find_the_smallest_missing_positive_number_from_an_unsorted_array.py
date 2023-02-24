@@ -1,4 +1,5 @@
 # Function to find the smallest missing positive number from an unsorted array
+# https://leetcode.com/problems/first-missing-positive/ #Pending
 def findSmallestMissing(nums):
 	# initialize the set from array elements
 	distinct = {*nums}

@@ -1,4 +1,5 @@
 # Function to left-rotate a list by one position
+# https://leetcode.com/problems/rotate-array/ # Pending
 def leftRotateByOne(A):
 	first = A[0]
 	for i in range(len(A) - 1):

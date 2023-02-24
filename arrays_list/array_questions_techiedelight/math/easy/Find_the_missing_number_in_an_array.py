@@ -1,4 +1,5 @@
 # Find the missing number in a given sorted array
+# https://leetcode.com/problems/missing-number/ # Pending
 def missing(nums):
 	m = len(nums)
 	total = sum(nums)

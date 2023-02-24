@@ -1,4 +1,5 @@
 # Function to find the majority element present in a given list
+# https://leetcode.com/problems/majority-element/ #Pending
 def findMajorityElement(nums):
 	# create an empty `HashMap`
 	d = {}

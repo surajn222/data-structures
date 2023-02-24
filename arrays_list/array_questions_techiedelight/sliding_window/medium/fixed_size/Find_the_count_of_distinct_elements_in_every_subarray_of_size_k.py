@@ -1,5 +1,6 @@
 # Function to find the count of distinct elements in every sublist
 # of size `k` in a list
+# https://leetcode.com/discuss/interview-question/1829002/amazonoamax-subarray-sum-of-size-k-that-has-k-distinct-elements # Pending
 def findDistinctCount(A, k):
 	# dictionary to store the frequency of elements in the current window of size `k`
 	freq = {}

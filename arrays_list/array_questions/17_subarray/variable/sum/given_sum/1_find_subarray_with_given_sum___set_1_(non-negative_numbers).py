@@ -2,6 +2,8 @@
 
 # Returns true if the there is a subarray of arr[] with sum equal to 'sum'
 # otherwise returns false. Also, prints the result
+
+# https://leetcode.com/problems/subarray-sum-equals-k/ # Pending
 def subArraySum(arr, n, sum):
 	# Pick a starting point
 	for i in range(n):

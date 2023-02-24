@@ -1,4 +1,5 @@
 # Function to merge two sorted lists `X` and `Y`
+# https://leetcode.com/problems/merge-sorted-array/ # Pending
 def merge(X, Y):
 	k = i = j = 0
 	aux = [0] * (len(X) + len(Y))

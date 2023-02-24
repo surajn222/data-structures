@@ -1,4 +1,5 @@
 # Find the missing number in a limited range list `arr[1…n+1]`
+# https://leetcode.com/problems/missing-number/ #Pending
 def findMissingElement(arr):
 	n = len(arr)
 

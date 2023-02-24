@@ -2,8 +2,10 @@
 # appearing element in array
 
 
-#10 ^ 5 = 15
-#15 ^ 5 = 10
+# 10 ^ 5 = 15
+# 15 ^ 5 = 10
+# https://leetcode.com/problems/single-number-ii/ #Pending
+# https://leetcode.com/problems/single-number-iii/ #Pending #Hashing
 def findSingle(ar, n):
 	res = ar[0]
 	print("starting element: " + str(res))

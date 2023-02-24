@@ -1,5 +1,6 @@
 # Given an array and a positive number k, check whether the array contains any duplicate elements within the range k. If k is more than the array’s size, the solution should check for duplicates in the complete array.
 # K is the distance within which the duplicate should be present
+# https://leetcode.com/problems/contains-duplicate-ii/ # Pending
 def hasDuplicate(nums, k):
 	# stores (element, index) pairs as (key, value) pairs
 	d = {}

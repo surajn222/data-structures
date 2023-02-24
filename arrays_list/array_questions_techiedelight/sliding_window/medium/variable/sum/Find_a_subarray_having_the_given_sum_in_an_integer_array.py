@@ -26,9 +26,42 @@ def findSublist(nums, target):
 		windowSum -= nums[low]
 
 
+def findSublist2(array_1, target):
+	print(array_1)
+
+	i = j = 0
+	window_sum = 0
+	common_subarray = []
+	while i <= len(array_1) - 1:
+
+		while j < len(array_1):
+			print("i = " + str(i) + ", j = " + str(j))
+			window_sum = window_sum + array_1[j]
+			common_subarray.append(array_1[j])
+			print("Window: " + str(common_subarray))
+			print("Window sum: " + str(window_sum))
+			j += 1
+			if window_sum > target:
+				print("Breaking loop, incrementing i --------")
+				print("--------")
+				break
+
+			print("--------")
+
+		if i < len(array_1) - 1:
+			i += 1
+		print("Window2: " + str(common_subarray))
+		common_subarray.pop(0)
+		window_sum = window_sum - array_1[i]
+
+	print("Window sum : " + str(window_sum))
+
+
 if __name__ == '__main__':
 	# a list of positive integers
 	nums = [2, 6, 0, 9, 7, 3, 1, 4, 1, 10]
+	nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 	target = 15
 
-	findSublist(nums, target)
+	# findSublist(nums, target)
+	findSublist2(nums, target)
