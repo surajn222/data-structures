@@ -24,4 +24,4 @@ if __name__ == '__main__':
 	target = 15
 
 	# findSublist(nums, target)
-	findSublist2(nums, target)
+	findSublist2(nums)
