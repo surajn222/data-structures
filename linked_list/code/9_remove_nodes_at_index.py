@@ -49,9 +49,3 @@ ll.RemoveNodesAtIndex(1)
 print("traverse after remove nodes at index")
 ll.traverse()
 
-
-
-
-
-
-
