@@ -1,0 +1,186 @@
+@startuml
+!include notes2.uml
+!pragma layout smetana
+allow_mixing
+
+
+top to bottom direction
+
+
+
+
+card c1 [
+Array = va1, val2, val3, val4, val5
+LinkedList = node1, node2, node3, node4, node5
+Node:
+    Value + address to next location
+]
+
+card c3 [
+Definition of Linkedlist:
+    Linear data structure, collection of linked nodes (values +pointer) stored in known locations
+]
+
+
+
+
+card c4 [
+Linkedlist types:
+    Singly,circular,doubly,doubly circular
+
+    1. Singly:
+        Node: data, address (successor)
+        head node is an address only
+
+    2. Circular:
+        Node: data, address (next)
+        last node has link (address) to first node
+
+    3. Doubly
+        Node: (previous) address, data, address (next)
+
+    4. Doubly Circular:
+        Node: (previous) address, data, address (next)
+        last node has link (address) to first node
+        first node has link (address) to last node
+
+]
+
+
+map Array_vs_Linkedlist {
+ Definition => Collection of values | collection of nodes
+ Locations => Continuous | non continuous
+ Cost of accessing an element => O(1) | O(n)
+ Size => Fixed size | Dynamic size
+ Memory utilization => Fixed | dynamic
+ Space => Wastage | No wastage
+ Memory requirement for each node => Less | More
+ Cost of Insertion: At beginning => O(n) | O(1)
+ Cost of Insertion: At end => O(1) | O(n)
+ Cost of Insertion: At nth postiion => O(n) - p, p is the position of element, proportional to size
+}
+
+
+
+
+card Operations [
+    1. Creation
+    2. Insertion
+        1. Insertion at beginning
+        2. Insertion at end
+        3. Insertion at position
+    3. Update
+    4. Removal/Delete
+]
+
+card Creation[
+    Creation
+]
+
+card Insertion[
+    Insertion
+]
+
+card Removal[
+    removal
+]
+
+card Creation1[
+- Creation of linkedlist in python
+
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.next = None
+
+class LinkedList:
+	def __init__(self):
+		self.head = None
+
+- # create a new linked list
+llist = LinkedList()
+
+]
+
+
+card Insertion1[
+- Insertion
+
+# Create a Node class to create a node
+class Node:
+	def __init__(self, data):
+		self.data = data
+		self.next = None
+
+# Create a LinkedList class
+	# Method to add a node at begin of LL
+	def insertAtBegin(self, data):
+		new_node = Node(data)
+		if self.head is None:
+			self.head = new_node
+			return
+		else:
+			new_node.next = self.head
+			self.head = new_node
+
+]
+
+card Insertion2[
+# Add node at any index
+# Method to add a node at any index
+# Indexing starts from 0.
+def insertAtIndex(self, data, index):
+    new_node = Node(data)
+    current_node = self.head
+    position = 0
+    if position == index:
+        self.insertAtBegin(data)
+    else:
+        while(current_node != None and position+1 != index):
+            position = position+1
+            current_node = current_node.next
+
+        if current_node != None:
+            new_node.next = current_node.next
+            current_node.next = new_node
+        else:
+            print("Index not present")
+
+]
+
+card Insertion3 [
+# Insert node at end:
+def insertAtEnd(self, data):
+    new_node = Node(data)
+    if self.head is None:
+        self.head = new_node
+        return
+
+    current_node = self.head
+    while(current_node.next):
+        current_node = current_node.next
+
+    current_node.next = new_node
+]
+
+
+c1 -right-> c3
+c3 -down-> c4
+c4 -down-> Array_vs_Linkedlist
+
+
+Operations -up-> Creation
+Operations -down-> Insertion
+Operations -right-> Removal
+Operations -right-> Update
+
+Creation -> Creation1
+Insertion -right-> Insertion1
+Insertion -right-> Insertion2
+
+
+
+
+@enduml
+
+

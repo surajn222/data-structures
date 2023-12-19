@@ -1,0 +1,14 @@
+@startuml
+!include definition.uml
+!include types.uml
+!include operations.uml
+!pragma layout smetana
+allow_mixing
+
+
+top to bottom direction
+
+
+@enduml
+
+
