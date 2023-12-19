@@ -1,4 +1,4 @@
-
+# TODO: Study
 def check_redundant_brackets(str_parenthesis):
     print(f"\n\n\n")
     print(str_parenthesis)

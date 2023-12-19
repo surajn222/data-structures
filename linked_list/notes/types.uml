@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+allow_mixing
+
+
+top to bottom direction
+
+
+card c4 [
+Linkedlist types:
+    Singly,circular,doubly,doubly circular
+
+    1. Singly:
+        Node: data, address (successor)
+        head node is an address only
+
+    2. Circular:
+        Node: data, address (next)
+        last node has link (address) to first node
+
+    3. Doubly
+        Node: (previous) address, data, address (next)
+
+    4. Doubly Circular:
+        Node: (previous) address, data, address (next)
+        last node has link (address) to first node
+        first node has link (address) to last node
+
+]
+
+
+
+@enduml
+
+

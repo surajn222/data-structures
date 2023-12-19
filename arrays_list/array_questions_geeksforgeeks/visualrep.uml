@@ -1,0 +1,250 @@
+@startmindmap
+* Array
+** 01_basic_operations
+*** 01_operations
+**** delete-element-from-array.py
+***** # TODO
+**** search-insert-delete-sorted-array.py
+**** search-insert-delete-unsorted-array.py
+** 02_extended_operations
+*** 02_floorceil
+**** 1_find_floor_and_ceil_of_a_number_in_a_sorted_array_(recursive_solution).py
+**** 1_find_floor_and_ceil_of_a_number_in_a_sorted_integer_array.py
+**** 1_minimum_element_in_array.py
+**** 1_smallest_element.py
+**** 2_find_the_minimum_and_maximum_element_in_an_array_using_divide_and_conquer.py
+**** 2_find_the_minimum_and_maximum_element_in_an_array_using_minimum_comparisons.py
+**** 2_largest_element.py
+**** 3_smallest_two_elements.py
+**** 4_largest_two_elements.py
+**** 5_n_smallest_element.py
+**** 6_n_largest_element.py
+**** 8_minimum_element_in_sorted_rotated_array.py
+**** 9_majority_element.py
+***** # TODO: Pending solution
+*** 03_distinct
+**** 1_distinct_elements_array.py
+**** 2_count_distinct_absolute_values_in_a_sorted_array.py
+*** 04_duplicate
+**** 1_duplicate_elements_array.py
+**** 2_find_the_minimum_index_of_a_repeating_element_in_an_array.py
+**** 3_find_duplicates_within_a_range_`k`_in_an_array.py
+***** # TODO: Studying
+*** 05_difference
+**** 1_Find_minimum_difference_between_any_two_elements.py
+**** 2_Find_the_minimum_distance_between_two_numbers.py
+**** 3_Maximum_difference_between_two_elements_(larger_element_appears_after_smaller).py
+**** 4_k-th_smallest_absolute_difference_of_two_elements_in_an_array.py
+**** 6_find_the_maximum_difference_between_two_array_elements_that_satisfies_the_given_constraints.py
+***** # TODO: Pending study
+**** 7_find_the_minimum_difference_between_the_index_of_two_given_elements_present_in_an_array.py
+***** # TODO: Stupid question, not to be done
+*** 06_missing
+**** 1_find_lost_element_from_a_duplicated_array.py
+**** 2_find_the_missing_number_in_an_array.py
+**** 3_find_the_missing_number_in_an_array_without_using_any_extra_space.py
+**** 4_find_the_smallest_missing_positive_number_from_an_unsorted_array.py
+**** 5_find_the_maximum_value_of_j_i_such_that_aj_>_ai_in_an_array.py
+*** 07_rotate
+**** 1_rotate_array.py
+**** 2_find_the_number_of_rotations_in_a_circularly_sorted_array.py
+**** 3_multiple_left_rotations.py
+**** 4_reversal_algorithm_for_array_rotation.py
+***** # TODO: Pending study
+*** 08_reverse
+**** 1_Reverse_an_array.py
+**** 1_Write_a_program_to_reverse_an_array_or_string.py
+**** 2_Reverse_an_array_without_affecting_special_characters.py
+**** 3_reverse_every_consecutive_`m`-elements_of_a_subarray.py
+***** # TODO
+*** 09_traverse
+**** 2_sum_of_elements_in_an_array.py
+**** 3_sum_of_elements_in_an_array_using_recursion.py
+**** 4_largest_number_that_is_not_perfect_square.py
+**** 6_find_array_element_such_that_all_elements_are_divisible_by_it.py
+***** # TODO: Completed
+**** 7_find_final_value_if_we_double_after_every_successful_search.py
+***** # TODO: Stupid question
+*** 10_frequency
+**** 10_group_elements_of_an_array_based_on_their_first_occurrence.py
+***** # TODO: Completed: Easy: Hashing
+**** 1_Find_the_element_that_appears_once_where_every_other_element_appears_twice.py
+***** # TODO: Completed
+**** 1_find_the_number_which_occurs_once.py
+***** # TODO: Completed
+**** 1_find_the_odd_occurring_element_in_an_array_in_a_single_traversal.py
+***** # TODO: Study
+**** 2_find_the_number_of_1s_in_a_sorted_binary_array.py
+***** # TODO
+**** 3_find_all_elements_that_appear_more_than_n_k_times_in_an_array.py
+***** # TODO: Completed: Hashing
+**** 4_determine_the_index_of_an_element_that_satisfies_given_constraints_in_an_array.py
+***** # TODO: Study
+**** 5_find_an_index_of_the_maximum_occurring_element_with_equal_probability.py
+***** # TODO: Study
+**** 6_find_majority_element_(boye_moore_majority_vote_algorithm).py
+**** 7_find_the_first_or_last_occurrence_of_a_given_number_in_a_sorted_array.py
+***** # TODO: Completed: Binary search
+**** 7_find_the_frequency_of_each_element_in_a_sorted_array_containing_duplicates.py
+***** # TODO: Pending: Same as above: Binary search
+**** leetcode
+*** 11_rearrange
+**** 2_move_all_zeros_present_in_an_array_to_the_end.py
+***** # TODO: Completed
+**** 6_shuffle_an_array_according_to_the_given_order_of_elements.py
+***** # TODO: Completed: https://leetcode.com/problems/shuffle-the-array/description/
+**** 7_shuffle_an_array_using_fisher_yates_shuffle_algorithm.py
+*** 14_sort
+**** 1_sort_even_numbers_and_odd_numbers.py
+***** # TODO: Completed, leetcode
+**** 5_segregate_positive_and_negative_integers_in_linear_time.py
+***** # TODO: Completed: https://leetcode.com/problems/rearrange-array-elements-by-sign/
+*** 15_stack
+**** Implement_two_stacks_in_an_array.py
+*** 16_sliding-window
+**** Sliding_Window_Technique.py
+*** 19_merge
+**** 1_Merge_an_array_of_size_n_into_another_array_of_size_m+n.py
+***** # TODO: Completed
+**** 3_add_elements_of_two_arrays_into_a_new_array.py
+**** 4_merge_two_sorted_arrays.py
+***** # TODO: Completed
+**** 4_merge_two_sorted_arrays_v2.py
+***** # TODO: Completed
+**** 4_merge_two_sorted_arrays_v3.py
+***** # TODO: Completed
+**** 4_merge_two_sorted_arrays_v3_temp.py
+**** 5_merge_two_sorted_arrays_from_their_end.py
+*** 20_matrix
+**** Matrix_Chain_Multiplication.py
+***** # TODO: Pending
+**** Print_a_given_matrix_in_spiral_form.py
+***** # TODO: Pending
+*** 21_misc
+**** A_Product_Array_Puzzle.py
+**** Cutting_a_rod_problem.py
+**** Merge_Overlapping_Intervals.py
+**** Minimum_Cost_Path_Problem.py
+**** Pythagorean_Triplet_in_an_array.py
+**** Shuffle_a_given_array.py
+**** Stock_Buy_Sell_to_Maximize_Profit.py
+**** decode_an_array_constructed_from_another_array.py
+**** find_maximum_profit_earned_by_buying_and_selling_shares_any_number_of_times.py
+**** find_maximum_sum_path_involving_elements_of_given_arrays.py
+**** generate_random_permutation_of_array_elements.py
+**** maximum_sum_of_k.py
+**** print_sum_triangle_for_a_given_array.py
+**** trapping_rain_water_problem.py
+*** 22_constraints
+**** 1_check_if_an_array_is_formed_by_consecutive_integers.py
+***** # TODO: Study, Completed
+*** 23_divisible
+**** determine_whether_an_array_can_be_divided_into_pairs_with_a_sum_divisible_by_k.py
+*** 25_palindrome
+*** 26_partition
+**** 1_find_equilibrium_index_of_an_array.py
+***** # TODO: Study: Easy: https://leetcode.com/problems/find-pivot-index/description/
+**** 2_find_the_index_that_divides_an_array_into_two_non-empty_subarrays_with_equal_sum.py
+***** # TODO: Same as above
+**** 3_partition_an_array_into_two_subarrays_with_the_same_sum.py
+***** # TODO: Same as above
+**** 4_partition_problem_extended_-_printing_all_partitions.py
+***** # TODO: Pending
+*** find_minimum
+**** 1_find_minimum_moves_required_for_converting_a_given_array_to_an_array_of_zeroes.py
+***** # TODO: Not important
+**** 2_Find_minimum_number_of_merge_operations_to_make_an_array_palindrome.py
+***** # TODO: Study
+**** 2_binary_array_sort_using_minimum_swaps.py
+***** # TODO: Study
+**** 2_find_minimum_removals_required_in_an_array_to_satisfy_given_constraints.py
+**** 5_find_minimum_value_to_be_added.py
+***** # TODO
+**** Count_minimum_steps_to_get_the_given_desired_array.py
+**** Find_the_minimum_value_to_be_added_so_that_array_becomes_balanced.py
+*** math
+**** 3_rearrange_the_array_alternately.py
+***** # TODO: Study
+**** 4_replace_every_array_element_with_the_product_of_every_other_element_without_using_a_division_operator.py
+** 03_Pair
+*** 10_find_pairs_with_difference_k_in_an_array.py
+*** 11_find_the_maximum_product_of_two_integers_in_an_array.py
+*** 12_find_two_non-overlapping_pairs_having_the_same_sum_in_an_array.py
+*** 13_print_all_triplets_that_form_a_geometric_progression.py
+*** 14_print_all_triplets_that_form_an_arithmetic_progression.py
+*** 1_if_there_is_a_pair_with_given_sum.py
+*** 2_pair-with-given-sum-sorted-and-rotated.py
+*** 4_sum-closest-to-x.py
+*** 5_find_triplets.py
+*** 6_find_a_pair_with_the_given_sum_in_a_circularly_sorted_array.py
+*** 7_find_a_pair_with_the_given_sum_in_an_array.py
+*** 8_find_a_triplet_that_sum_to_a_given_value.py
+*** 9_find_all_symmetric_pairs_in_an_array_of_pairs.py
+** 04_subarray
+*** fixed_size
+**** 15_find_the_count_of_distinct_elements_in_every_subarray_of_size_`k`.py
+***** # TODO: Study
+**** 7_maximum_of_all_subarrays_of_size_'k'_using_sliding_window_technique.py
+***** # TODO: Study
+*** variable
+**** 0_sum
+***** given_sum
+****** 0_basic_step1.py
+****** 0_basic_step1_temp.py
+****** 0_basic_step1_temp2.py
+****** 0_basic_step2.py
+****** 12_find_a_subarray_having_the_given_sum_in_an_integer_array.py
+****** 14_find_maximum_length_subarray_having_a_given_sum.py
+****** 1_find_subarray_with_given_sum___set_1_(non-negative_numbers).py
+****** 2_find_subarray_with_given_sum___set_2_(handles_negative_numbers).py
+****** 2_find_subarray_with_given_sum_set_2_(handles_negative_numbers)_temp.py
+****** 2_print_all_subarrays_with_0_sum.py
+****** 2find_subarray_with_0_sum.py
+****** 2find_subarray_with_given_sum.py
+***** 20_find_the_smallest_subarray_length_whose_sum_of_elements_is_greater_than_`k`.py
+***** 21_find_two_numbers_with_maximum_sum_formed_by_array_digits.py
+***** 23_maximum_sum_circular_subarray.py
+***** 27_print_continuous_subarray_with_maximum_sum.py
+***** subarray_max.py
+**** 1_continuous
+***** 13_find_maximum_length_sequence_of_continuous_ones.py
+****** # TODO: Pending
+***** 19_find_the_maximum_sequence_of_continuous_s_formed_by_replacing_at-most_`k`_zeroes_by_ones.py
+****** # TODO: Pending
+***** 5_find_the_largest_subarray_formed_by_consecutive_integers.py
+****** # TODO: Pending
+***** 5_length_of_the_largest_subarray_with_contiguous_elements___set_1.py
+****** # TODO: Study
+**** 2_ascdesc
+***** 10_minimum_length_unsorted_subarray,_sorting_which_makes_the_array_sorted.py
+****** # TODO: Study
+***** 24_print_all_combinations_of_positive_integers_in_increasing_order_that_sums_to_a_given_number.py
+****** # TODO: Pending https://leetcode.com/problems/combination-sum/description/?tab=Description
+***** 3_count_minimum_number_of_subsets_(or_subsequences)_with_consecutive_numbers.py
+****** # TODO: Study
+***** 4_count_strictly_increasing_subarrays.py
+****** # TODO: Study
+***** 6_find_the_increasing_subsequence_of_length_three_with_maximum_product.py
+****** # TODO: Study
+**** binary
+***** 18_find_the_longest_continuous_sequence_length_with_the_same_sum_in_given_binary_arrays.py
+****** # TODO: Pending
+***** 8_longest_span_with_same_sum_in_two_binary_arrays.py
+****** # TODO: Study
+**** bitonic
+***** 22_longest_bitonic_subarray_problem.py
+****** # TODO: Pending
+***** 9_maximum_length_bitonic_subarray.py
+****** # TODO: Study
+**** distinct
+***** 25_print_all_subarrays_of_an_array_having_distinct_elements.py
+****** # TODO: Pending
+**** misc
+***** 11_find_a_minimum_range_with_at_least_one_element_from_each_of_the_given_arrays.py
+***** 17_find_the_largest_subarray_having_an_equal_number_of_0s.py
+**** 5_find_the_maximum_absolute_difference_between_the_sum_of_two_non-overlapping_subarrays.py
+*** temp_queue.py
+** .DS_Store
+** visualrep.png
+** visualrep.uml
+@endmindmap

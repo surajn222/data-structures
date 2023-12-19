@@ -1,0 +1,30 @@
+@startuml
+!pragma layout smetana
+
+card summary [
+LinkedList:
+    Define LL
+    Add Nodes at end
+    Traverse
+        Size
+        Update
+        Remove at end
+
+
+Variations:
+    Add Nodes at beginning
+    Add Nodes at Index
+    Remove Nodes at beginning
+    Remove Nodes at data
+    Remove Nodes at index
+]
+
+
+card questions[
+
+How to define a basic LL
+
+
+]
+
+@enduml

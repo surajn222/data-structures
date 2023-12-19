@@ -1,0 +1,9 @@
+import heapq
+
+heapq.heapify(li)
+heapq.heappush(li, 4)
+print(heapq.heappop(li))
+print(heapq.heappushpop(li1, 2))
+print(heapq.heapreplace(li2, 2))
+print(heapq.nlargest(3, li1))
+print(heapq.nsmallest(3, li1))

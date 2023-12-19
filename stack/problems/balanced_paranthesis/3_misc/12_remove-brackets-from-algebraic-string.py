@@ -1,3 +1,4 @@
+# TODO: Study
 # Python3 program to simplify algebraic String
 
 # Function to simplify the String

@@ -1,0 +1,40 @@
+@startuml
+
+!pragma layout smetana
+allow_mixing
+
+top to bottom direction
+
+Card Creation [
+    Creation
+]
+
+Card Traversal [
+    Traversal
+]
+
+Card Deletion [
+    Deletion
+]
+
+Card Operations [
+    Creation
+    Traversal
+        Array rep
+        Inorder
+        Postorder
+        Preorder
+        DFS
+        BFS
+        Binary tree from Preorder and Postorder
+        Binary tree from Preorder
+        Binary tree from Postorder
+    Update
+    Insertion
+    Delete
+
+]
+
+@enduml
+
+
