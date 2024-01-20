@@ -1,6 +1,9 @@
 # Sol1:
 # Two loops: Compare the difference of every pair
 
+# Sol2:
+# Sort the array, then traverse it and find diff between adjacent numbers
+
 #Find_minimum_difference_between_any_two_elements
 # Python implementation of simple method to find
 # minimum difference between any pair

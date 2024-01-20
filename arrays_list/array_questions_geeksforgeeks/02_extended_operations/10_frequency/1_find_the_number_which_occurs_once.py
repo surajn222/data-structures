@@ -1,6 +1,25 @@
+# TODO: Completed
 # Given an array where every element occurs three times, except one element which occurs only once. Find the element that occurs once. The expected time complexity is O(n) and O(1) extra space.
 # Python3 code to find the element that
 # appears once
+
+# Logic:
+# Given: Every element appears thrice, one elements appears once
+# Lets first solve this for "Every element appears twice, one element appears once"
+# Sol:
+# Sum_twice = sum(all elements) * 2 = twice the array
+# sum_array
+# difference betn the above two, give you the element
+# Eg. [2,2,5,5,7] = Sum_once = 2+2+5+5+7 = 21, sum_twice = (2+5+7)+(2+5+7) = 28 (contains one element twice)
+# diff = 28-21 = 7
+
+# Same goes for three
+# [2,2,2,5,5,5,7]
+# sum_once = 2+5+7 = 14
+# sum_thrice = 2+5+7 + 2+5+7 + 2+5+7 = 42
+# sum_array = 2+2+2+5+5+5+7
+# diff = 42-29 = 14, divide by 2 (because 7 appears total of thrice, we subtracted twice), 14/2 = 7
+
 
 def getSingle(arr, n):
 	ones = 0

@@ -3,6 +3,7 @@
 ** 01_basic_operations
 *** 01_operations
 **** delete-element-from-array.py
+***** # TODO
 **** search-insert-delete-sorted-array.py
 **** search-insert-delete-unsorted-array.py
 ** 02_extended_operations
@@ -20,6 +21,7 @@
 **** 6_n_largest_element.py
 **** 8_minimum_element_in_sorted_rotated_array.py
 **** 9_majority_element.py
+***** # TODO: Pending solution
 *** 03_distinct
 **** 1_distinct_elements_array.py
 **** 2_count_distinct_absolute_values_in_a_sorted_array.py
@@ -27,14 +29,16 @@
 **** 1_duplicate_elements_array.py
 **** 2_find_the_minimum_index_of_a_repeating_element_in_an_array.py
 **** 3_find_duplicates_within_a_range_`k`_in_an_array.py
+***** # TODO: Studying
 *** 05_difference
 **** 1_Find_minimum_difference_between_any_two_elements.py
 **** 2_Find_the_minimum_distance_between_two_numbers.py
 **** 3_Maximum_difference_between_two_elements_(larger_element_appears_after_smaller).py
 **** 4_k-th_smallest_absolute_difference_of_two_elements_in_an_array.py
-**** 5_find_the_maximum_absolute_difference_between_the_sum_of_two_non-overlapping_subarrays.py
 **** 6_find_the_maximum_difference_between_two_array_elements_that_satisfies_the_given_constraints.py
+***** # TODO: Pending study
 **** 7_find_the_minimum_difference_between_the_index_of_two_given_elements_present_in_an_array.py
+***** # TODO: Stupid question, not to be done
 *** 06_missing
 **** 1_find_lost_element_from_a_duplicated_array.py
 **** 2_find_the_missing_number_in_an_array.py
@@ -46,48 +50,64 @@
 **** 2_find_the_number_of_rotations_in_a_circularly_sorted_array.py
 **** 3_multiple_left_rotations.py
 **** 4_reversal_algorithm_for_array_rotation.py
+***** # TODO: Pending study
 *** 08_reverse
+**** 1_Reverse_an_array.py
 **** 1_Write_a_program_to_reverse_an_array_or_string.py
 **** 2_Reverse_an_array_without_affecting_special_characters.py
 **** 3_reverse_every_consecutive_`m`-elements_of_a_subarray.py
+***** # TODO
 *** 09_traverse
-**** 1_Reverse_an_array.py
 **** 2_sum_of_elements_in_an_array.py
 **** 3_sum_of_elements_in_an_array_using_recursion.py
 **** 4_largest_number_that_is_not_perfect_square.py
 **** 5_find_minimum_value_to_be_added.py
+***** # TODO
 **** 6_find_array_element_such_that_all_elements_are_divisible_by_it.py
+***** # TODO: Find a better solution
 **** 7_find_final_value_if_we_double_after_every_successful_search.py
+***** # TODO: Find a better solution
 *** 10_frequency
 **** 10_group_elements_of_an_array_based_on_their_first_occurrence.py
+***** # TODO: Study
 **** 1_Find_the_element_that_appears_once_where_every_other_element_appears_twice.py
-**** 2_find_all_elements_that_appear_more_than_n_k_times_in_an_array.py
-**** 3_find_the_number_which_occurs_once.py
+**** 1_find_the_number_which_occurs_once.py
+**** 1_find_the_odd_occurring_element_in_an_array_in_a_single_traversal.py
+***** # TODO
+**** 2_find_the_number_of_1s_in_a_sorted_binary_array.py
+***** # TODO
+**** 3_find_all_elements_that_appear_more_than_n_k_times_in_an_array.py
 **** 4_determine_the_index_of_an_element_that_satisfies_given_constraints_in_an_array.py
+***** # TODO: Study
 **** 5_find_an_index_of_the_maximum_occurring_element_with_equal_probability.py
+***** # TODO
 **** 6_find_majority_element_(boye_moore_majority_vote_algorithm).py
 **** 7_find_the_first_or_last_occurrence_of_a_given_number_in_a_sorted_array.py
-**** 8_find_the_number_of_1s_in_a_sorted_binary_array.py
-**** 9_find_the_odd_occurring_element_in_an_array_in_a_single_traversal.py
+***** # TODO: Study
+**** find_the_frequency_of_each_element_in_a_sorted_array_containing_duplicates.py
+***** # TODO: Pending
 **** leetcode
 *** 11_rearrange
 **** 1_find_minimum_moves_required_for_converting_a_given_array_to_an_array_of_zeroes.py
+***** # TODO: Not important
 **** 2_move_all_zeros_present_in_an_array_to_the_end.py
-**** 3_rearrange_the_array_alternately.py
-**** 4_replace_every_array_element_with_the_product_of_every_other_element_without_using_a_division_operator.py
-**** 5_segregate_positive_and_negative_integers_in_linear_time.py
+***** # TODO: Study
 **** 6_shuffle_an_array_according_to_the_given_order_of_elements.py
+***** # TODO: Study
 **** 7_shuffle_an_array_using_fisher_yates_shuffle_algorithm.py
 *** 14_sort
 **** 1_sort_even_numbers_and_odd_numbers.py
+***** # TODO: Study, leetcode
 **** 2_binary_array_sort_using_minimum_swaps.py
+***** # TODO: Study
+**** 5_segregate_positive_and_negative_integers_in_linear_time.py
+***** # TODO: Study
 *** 15_stack
 **** Implement_two_stacks_in_an_array.py
 *** 16_sliding-window
 **** Sliding_Window_Technique.py
 *** 19_merge
 **** 1_Merge_an_array_of_size_n_into_another_array_of_size_m+n.py
-**** 2_Find_minimum_number_of_merge_operations_to_make_an_array_palindrome.py
 **** 3_add_elements_of_two_arrays_into_a_new_array.py
 **** 4_merge_two_sorted_arrays.py
 **** 4_merge_two_sorted_arrays_v2.py
@@ -99,9 +119,7 @@
 **** Print_a_given_matrix_in_spiral_form.py
 *** 21_misc
 **** A_Product_Array_Puzzle.py
-**** Count_minimum_steps_to_get_the_given_desired_array.py
 **** Cutting_a_rod_problem.py
-**** Find_the_minimum_value_to_be_added_so_that_array_becomes_balanced.py
 **** Merge_Overlapping_Intervals.py
 **** Minimum_Cost_Path_Problem.py
 **** Pythagorean_Triplet_in_an_array.py
@@ -116,18 +134,25 @@
 **** trapping_rain_water_problem.py
 *** 22_constraints
 **** 1_check_if_an_array_is_formed_by_consecutive_integers.py
-**** 2_find_minimum_removals_required_in_an_array_to_satisfy_given_constraints.py
+***** # TODO: Study, easy
 *** 23_divisible
 **** determine_whether_an_array_can_be_divided_into_pairs_with_a_sum_divisible_by_k.py
-*** 24_frequency
-**** find_the_frequency_of_each_element_in_a_sorted_array_containing_duplicates.py
 *** 25_palindrome
-**** find_the_minimum_number_of_merge_operations_to_make_an_array_palindrome.py
 *** 26_partition
 **** 1_find_equilibrium_index_of_an_array.py
 **** 2_find_the_index_that_divides_an_array_into_two_non-empty_subarrays_with_equal_sum.py
 **** 3_partition_an_array_into_two_subarrays_with_the_same_sum.py
 **** 4_partition_problem_extended_-_printing_all_partitions.py
+*** find_minimum
+**** 2_Find_minimum_number_of_merge_operations_to_make_an_array_palindrome.py
+***** # TODO: Study
+**** 2_find_minimum_removals_required_in_an_array_to_satisfy_given_constraints.py
+**** Count_minimum_steps_to_get_the_given_desired_array.py
+**** Find_the_minimum_value_to_be_added_so_that_array_becomes_balanced.py
+*** math
+**** 3_rearrange_the_array_alternately.py
+***** # TODO: Study
+**** 4_replace_every_array_element_with_the_product_of_every_other_element_without_using_a_division_operator.py
 ** 03_Pair
 *** 10_find_pairs_with_difference_k_in_an_array.py
 *** 11_find_the_maximum_product_of_two_integers_in_an_array.py
@@ -188,7 +213,10 @@
 ***** 23_maximum_sum_circular_subarray.py
 ***** 27_print_continuous_subarray_with_maximum_sum.py
 ***** subarray_max.py
+**** 5_find_the_maximum_absolute_difference_between_the_sum_of_two_non-overlapping_subarrays.py
 *** temp_queue.py
+** .DS_Store
 ** visualrep.png
 ** visualrep.uml
+
 @endmindmap

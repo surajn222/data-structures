@@ -1,5 +1,4 @@
-# Sol1:
-# Two loops: Compare the difference of every pair
+# Same as above
 
 #Find_the_minimum_distance_between_two_numbers
 # Python3 code to Find the minimum

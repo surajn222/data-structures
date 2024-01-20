@@ -1,5 +1,4 @@
-# Sol1:
-# Two loops: Compare the difference of every pair
+# Same as above
 
 #Maximum_difference_between_two_elements_(larger_element_appears_after_smaller)
 # Python 3 code to find Maximum difference

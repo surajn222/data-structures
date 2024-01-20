@@ -1,3 +1,9 @@
+# Sol1:
+# Sum of both arrays, subtract the sum
+
+# Sol2:
+# XOR of both arrays
+
 # Find_lost_element_from_a_duplicated_array
 # Python3 program to find missing
 # element from same arrays
@@ -105,3 +111,5 @@ findMissing(arr1, arr2, M, N)
 
 # This code is contributed
 # by Smitha Dinesh Semwal
+
+

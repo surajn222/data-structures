@@ -1,3 +1,4 @@
+# TODO: Study
 # Complex
 def rearrange(self, arr, n):
 	temp = n // 2
@@ -65,4 +66,7 @@ print(arr)
 print("modified array")
 print(rearrange(arr, length_of_array))
 
+# https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form-set-2-o1-extra-space/
+
+# Sol2:
 # https://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form-set-2-o1-extra-space/

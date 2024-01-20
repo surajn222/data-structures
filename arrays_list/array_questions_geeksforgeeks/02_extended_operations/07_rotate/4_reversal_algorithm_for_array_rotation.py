@@ -1,3 +1,4 @@
+# TODO: Pending study
 # Reversal_algorithm_for_array_rotation
 # Python program for reversal algorithm of array rotation
 

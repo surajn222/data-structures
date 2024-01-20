@@ -1,3 +1,4 @@
+# TODO: Completed, leetcode
 # https://leetcode.com/problems/sort-even-and-odd-indices-independently/ # Pending
 # Python program to sort array
 # in even and odd manner

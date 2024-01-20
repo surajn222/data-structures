@@ -1,3 +1,4 @@
+# TODO: Completed
 # Python program to merge two sorted arrays/
 def mergeArrays(arr1, arr2):
 	n1 = len(arr1)

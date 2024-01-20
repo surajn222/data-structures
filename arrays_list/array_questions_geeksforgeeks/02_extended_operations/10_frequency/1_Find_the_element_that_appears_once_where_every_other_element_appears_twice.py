@@ -1,6 +1,6 @@
+# TODO: Completed
 # function to find the once
 # appearing element in array
-
 
 # 10 ^ 5 = 15
 # 15 ^ 5 = 10
