@@ -1,3 +1,4 @@
+# TODO: Pending study
 def subArraySum(arr, n, sum_):
 	# Initialize curr_sum as
 	# value of first element

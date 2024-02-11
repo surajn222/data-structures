@@ -1,3 +1,4 @@
+# TODO: Pending study
 def findSublist2(array_1, target_sum):
 	print(array_1)
 

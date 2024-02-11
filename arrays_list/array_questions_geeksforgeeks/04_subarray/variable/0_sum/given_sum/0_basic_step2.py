@@ -1,3 +1,4 @@
+# TODO: Pending study
 # Step 1: List down all the subarrays first
 # Step 2: In the inner loop, stop the subarray when the current_sum > target_sum
 # Step 3:

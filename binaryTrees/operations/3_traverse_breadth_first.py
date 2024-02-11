@@ -2,21 +2,23 @@
 # order traversal of Binary Tree
 
 # A node structure
-
-
 class Node:
-
 	# A utility function to create a new node
 	def __init__(self, key):
 		self.data = key
 		self.left = None
 		self.right = None
 
-
 # Function to print level order traversal of tree
 def printLevelOrder(root):
 	h = height(root)
+	print("level")
+	print("For root, level = 1")
+	print("For level 2, i = 2")
+	print("For level 3, i = 3")
 	for i in range(1, h + 1):
+		print("i = "+ str(i) + "")
+		# i = level that we want printed, so recurse and reach that point
 		printCurrentLevel(root, i)
 
 
@@ -25,8 +27,10 @@ def printCurrentLevel(root, level):
 	if root is None:
 		return
 	if level == 1:
-		print(root.data, end=" ")
+		print(root.data, end="\n")
 	elif level > 1:
+		print("printcurrentlevel = " + str(level) + " data: " + str(root.data) + "")
+		# Since we have not reached the desired level
 		printCurrentLevel(root.left, level - 1)
 		printCurrentLevel(root.right, level - 1)
 

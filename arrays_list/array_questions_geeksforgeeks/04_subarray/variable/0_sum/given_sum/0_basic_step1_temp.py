@@ -1,7 +1,10 @@
+# TODO: Pending study
 # Step 1: List down all the subarrays first
 # Step 2: In the inner loop, stop the subarray when the current_sum > target_sum
 # Step 3:
 # Step 4:
+
+# Step 1: List down all the subarrays first, i = 0, j = 0
 def findSublist1(array_1, target_sum):
 	print(array_1)
 	i = 0
@@ -12,7 +15,7 @@ def findSublist1(array_1, target_sum):
 			j += 1
 		i += 1
 
-
+# Step 1: List down all the subarrays, i = 0, j = 1
 def findSublist2(array_1, target_sum):
 	print(array_1)
 	i = 0
@@ -23,7 +26,7 @@ def findSublist2(array_1, target_sum):
 			j += 1
 		i += 1
 
-
+# Step 1: List down all the subarrays of size 3
 def findSublist3(array_1, target_sum):
 	print(array_1)
 	i = 0
@@ -37,6 +40,7 @@ def findSublist3(array_1, target_sum):
 		i += 1
 
 
+# Step 1: List down all the subarrays of size 3; i = 0, j = i
 def findSublist4(array_1, target_sum):
 	print(array_1)
 	i = 0
@@ -50,6 +54,7 @@ def findSublist4(array_1, target_sum):
 		i += 1
 
 
+# Step 1: List down all the subarrays of size 3; i = 0, j = 0
 def findSublist5(array_1, target_sum):
 	print(array_1)
 	i = j = 0
@@ -59,7 +64,7 @@ def findSublist5(array_1, target_sum):
 			j += 1
 		i += 1
 
-
+# Step 1: List down all the subarrays of size 3; i = 0, j = always 2
 def findSublist6(array_1, target_sum):
 	print(array_1)
 	i = j = 0
@@ -248,7 +253,7 @@ if __name__ == '__main__':
 	# a list of positive integers
 	nums = [2, 6, 0, 9, 7, 3, 1, 4, 1, 10]
 	nums = [1, 1, 1]
-	nums = [1, 2, 3]
+	nums = [1, 2, 3, 4, 5, 6, 7]
 	# nums = [0, 9, 7, 2, 6, 1, 10, 3, 1, 4]
 	# nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 	# target = 15
@@ -262,11 +267,11 @@ if __name__ == '__main__':
 	# findSublist5(nums, target)
 	# findSublist6(nums, target)
 	# findSublist7(nums, target)
-	# findSublist8(nums, target)
-	# findSublist9(nums, target)
-	# findSublist10(nums, target)
-	# findSublist11(nums, target)
-	# findSublist12(nums, target)
+	# findSublist8(nums, target); print("----------")
+	# findSublist9(nums, target); print("----------")
+	# findSublist10(nums, target); print("----------")
+	# findSublist11(nums, target); print("----------")
+	findSublist12(nums, target)
 	# findSublist13(nums, target)
-	findSublist14(nums, target)
-	subArraySum(nums, target)
+	# findSublist14(nums, target)
+	# subArraySum(nums, target)

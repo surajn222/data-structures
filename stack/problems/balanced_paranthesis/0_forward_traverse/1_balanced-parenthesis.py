@@ -1,3 +1,4 @@
+# TODO: Study
 # Python3 program to check for balanced brackets.
 
 # function to check if brackets are balanced

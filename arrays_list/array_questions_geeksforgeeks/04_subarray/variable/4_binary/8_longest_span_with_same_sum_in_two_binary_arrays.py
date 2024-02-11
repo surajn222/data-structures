@@ -1,4 +1,4 @@
-# TODO: Study
+# TODO: Pending study
 # Longest_Span_with_same_Sum_in_two_Binary_arrays
 # A Simple python program to find longest common
 # subarray of two binary arrays with same sum

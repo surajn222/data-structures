@@ -1,3 +1,4 @@
+# TODO: Pending study
 import collections as col
 import sys
 

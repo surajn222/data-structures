@@ -1,4 +1,4 @@
-# TODO: Study
+# TODO: Pending study
 # Count_minimum_number_of_subsets_(or_subsequences)_with_consecutive_numbers
 # Python program to find number of subset containing
 # consecutive numbers

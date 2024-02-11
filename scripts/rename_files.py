@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path = '../arrays_list/array_questions'
+path = '../arrays_list/array_questions_geeksforgeeks'
 for root, dirs, files in os.walk(path):
     for file in files:
         # print(file)
