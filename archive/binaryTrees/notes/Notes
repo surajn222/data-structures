@@ -1,0 +1,58 @@
+Trees by Jenny
+
+Tree, graphs are non linear. Non-linear = multiple levels
+data is in the form of hierarchy. heirarchial relationship between them
+
+Tree can have different defn in math, graphs, trees
+
+traversal is always top to bottom. Collection of elements/nodes which are linked together to simulate a heirarchy
+
+Root = top most element, no parent, first element
+Element = Nodes are elements
+Node = stores some information, and has link
+Parent node = immediate Predecessor/previous node of the current node
+Child node = immediate successor/next of node
+Leaf node = no child node
+Non leaf node = at least one child
+Edge = Link between two nodes
+Path = sequence of consecutive edges from source to destination nodes
+ancestor = any predecessor node on the path from root to current node
+descendants = any successor node on the path from root to current node
+subtree = node with all descendants
+sibling = children of same parents
+degree = number of children of that node
+degree of tree = max degree of any node
+depth of node = length of path from root to the current node
+height of node = number of edges in the longest path from that node to a leaf
+height of tree = from root, longest path
+level of node = number of edges from root to the current node = depth of node
+
+nodes = (n-1)edges
+
+Binary tree = tree with all nodes at most 2 children
+
+Binary Tree:
+    each node can have at most 2 children
+
+Level 1 = 0
+Level 1 = 2
+Level 1 = 4
+Level 1 = 8
+Level 1 = 16
+At each level, max node possible is 2^level
+
+Max node at height = 2^(h+1) -1
+Min node at height = 1
+
+Binary tree types
+Full binary/string
+    Each node should have 2 children except leaf node
+    Each node should either have 2 or 0
+Complete binary tre
+    If all the levels are completely filled except the last level
+    Nodes should be as left as possible
+Perfect binary tree
+    All nodes have 2 children and all leaf are at the same level
+Degenerate binary tree:
+    all internal nodes have only 1 child
+    left skewed binary tree, right skewed binary tree
